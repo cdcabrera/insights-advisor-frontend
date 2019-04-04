@@ -32,6 +32,9 @@ class FilterDropdown extends Component {
         const { hideCategories, filters } = this.props;
         const { isOpen } = this.state;
 
+        /**
+         * ToDo: evaluate line 58 error around value={ `${item.value}` } boolean/string type
+         */
         return (
             <Dropdown
                 onSelect={ this.onSelect }
@@ -52,7 +55,7 @@ class FilterDropdown extends Component {
                                     addRemoveFilters={ this.addRemoveFilters }
                                     param={ data.urlParam }
                                     type={ data.type }
-                                    value={ item.value }
+                                    value={ `${item.value}` }
                                     filters={ filters }
                                 />
                             ))) }
@@ -72,7 +75,10 @@ FilterDropdown.propTypes = {
 };
 
 FilterDropdown.defaultProps = {
-    hideCategories: []
+    addFilter: Function.prototype,
+    removeFilter: Function.prototype,
+    hideCategories: [],
+    filters: {}
 };
 
 export default FilterDropdown;

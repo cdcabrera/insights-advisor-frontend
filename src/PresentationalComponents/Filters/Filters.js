@@ -23,7 +23,10 @@ class Filters extends Component {
         }
     }
 
-    changeSearchValue = debounce(
+    /**
+     * ToDo: this needs to be evaluated against pulling the target value
+     */
+    changeSearchValue = () => debounce(
         value => {
             const filter = { ...this.props.filters };
             const text = value.length ? { text: value } : {};
@@ -96,13 +99,22 @@ class Filters extends Component {
 }
 
 Filters.propTypes = {
-    children: PropTypes.any,
+    children: PropTypes.any.isRequired,
     hideCategories: PropTypes.array,
     searchPlaceholder: PropTypes.string,
     filters: PropTypes.object,
     setFilters: PropTypes.func,
     fetchAction: PropTypes.func,
     externalFilters: PropTypes.object
+};
+
+Filters.defaultProps = {
+    hideCategories: [],
+    searchPlaceholder: null,
+    filters: {},
+    setFilters: Function.prototype,
+    fetchAction: Function.prototype,
+    externalFilters: {}
 };
 
 const mapStateToProps = (state, ownProps) => ({
@@ -114,4 +126,6 @@ const mapDispatchToProps = dispatch => bindActionCreators({
     setFilters: (filters) => AppActions.setFilters(filters)
 }, dispatch);
 
-export default routerParams(connect(mapStateToProps, mapDispatchToProps)(Filters));
+const ConnectedFilters = routerParams(connect(mapStateToProps, mapDispatchToProps)(Filters));
+
+export { ConnectedFilters as default, Filters };

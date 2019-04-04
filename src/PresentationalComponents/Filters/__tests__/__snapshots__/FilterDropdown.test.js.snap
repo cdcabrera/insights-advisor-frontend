@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDropdown Component should render a non-connected component: non-connected 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "pf-c-dropdown",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "aria-expanded": "false",
+          "class": "pf-c-dropdown__toggle",
+          "id": "pf-toggle-id-0",
+          "type": "button",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "pf-c-dropdown__toggle-text",
+            },
+            "children": Array [
+              Object {
+                "data": "Filters",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "span",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "aria-hidden": "true",
+                "class": "pf-c-dropdown__toggle-icon",
+                "fill": "currentColor",
+                "height": "1em",
+                "role": "img",
+                "style": "vertical-align: -0.125em;",
+                "viewBox": "0 0 320 512",
+                "width": "1em",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "d": "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                    "transform": "",
+                  },
+                  "children": Array [],
+                  "name": "path",
+                  "namespace": "http://www.w3.org/2000/svg",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "d": undefined,
+                    "transform": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "d": undefined,
+                    "transform": undefined,
+                  },
+                },
+              ],
+              "name": "svg",
+              "namespace": "http://www.w3.org/2000/svg",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "aria-hidden": undefined,
+                "class": undefined,
+                "fill": undefined,
+                "height": undefined,
+                "role": undefined,
+                "style": undefined,
+                "viewBox": undefined,
+                "width": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "aria-hidden": undefined,
+                "class": undefined,
+                "fill": undefined,
+                "height": undefined,
+                "role": undefined,
+                "style": undefined,
+                "viewBox": undefined,
+                "width": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "aria-hidden": "true",
+              "class": "pf-c-dropdown__toggle-icon",
+              "fill": "currentColor",
+              "height": "1em",
+              "role": "img",
+              "style": "vertical-align: -0.125em;",
+              "viewBox": "0 0 320 512",
+              "width": "1em",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "d": "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                  "transform": "",
+                },
+                "children": Array [],
+                "name": "path",
+                "namespace": "http://www.w3.org/2000/svg",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "d": undefined,
+                  "transform": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "d": undefined,
+                  "transform": undefined,
+                },
+              },
+            ],
+            "name": "svg",
+            "namespace": "http://www.w3.org/2000/svg",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "class": "pf-c-dropdown__toggle-text",
+              },
+              "children": Array [
+                Object {
+                  "data": "Filters",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "span",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "aria-hidden": undefined,
+              "class": undefined,
+              "fill": undefined,
+              "height": undefined,
+              "role": undefined,
+              "style": undefined,
+              "viewBox": undefined,
+              "width": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "aria-hidden": undefined,
+              "class": undefined,
+              "fill": undefined,
+              "height": undefined,
+              "role": undefined,
+              "style": undefined,
+              "viewBox": undefined,
+              "width": undefined,
+            },
+          },
+        ],
+        "name": "button",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "aria-expanded": undefined,
+          "class": undefined,
+          "id": undefined,
+          "type": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "aria-expanded": undefined,
+          "class": undefined,
+          "id": undefined,
+          "type": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
